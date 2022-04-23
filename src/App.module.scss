@@ -1,3 +1,20 @@
-.header {
-    color: blue;
+@import './styles/sass-base.scss';
+
+.wrapper {
+  background-color: var(--gray-modal-active);
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+
+  &__header {
+    color: var(--green);
+    font-weight: var(--semi-bold);
+
+    @include screen(sm) {
+      color: var(--white);
+    }
+  }
 }
