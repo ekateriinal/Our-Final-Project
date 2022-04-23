@@ -1,0 +1,13 @@
+.wrapper {
+    background-color: var(--white);
+    --heading-color: var(--black);
+    padding: 20px 40px;
+    border: 1px solid var(--gray);
+    width: min(100% - 80px, 800px);
+    margin-inline: auto;
+
+    &--dark-bg {
+        background-color: var(--black);
+    --heading-color: var(--green);
+    }
+}

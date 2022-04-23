@@ -1,0 +1,10 @@
+@import '../../styles/sass-base.scss';
+
+.heading {
+    color: var(--heading-color);
+    font-weight: var(--semi-bold);
+
+    @include screen(sm) {
+      text-decoration: underline;
+    }
+  }
