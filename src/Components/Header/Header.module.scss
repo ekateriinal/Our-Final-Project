@@ -1,7 +1,11 @@
-@import '../../styles/sass-base.scss';
+@import "../../styles/sass-base.scss";
 
 .header {
   padding: 30px 100px;
+  &__nav-box {
+    display: flex;
+    justify-content: space-between;
+  }
 
   &__nav-group {
     display: flex;
@@ -40,6 +44,11 @@
     fill: var(--black-01);
   }
 
+  &__icon-group {
+    display: flex;
+    gap: 22px;
+  }
+
   &__icon-wrapper-small {
     width: 9px;
   }
@@ -48,5 +57,4 @@
     width: 100%;
     fill: var(--black-01);
   }
-
-  }
+}
