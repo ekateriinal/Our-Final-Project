@@ -1,0 +1,22 @@
+.group {
+  margin-top: 90px;
+  margin-inline: auto;
+  width: min(100% - 200px);
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 386px;
+  }
+
+  &__img-box {
+    width: 354px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
