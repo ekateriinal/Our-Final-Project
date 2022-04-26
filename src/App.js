@@ -2,13 +2,13 @@ import "./styles/base.scss";
 import "./styles/sass-base.scss";
 import styles from "./App.module.scss";
 import Header from "./Components/Header/Header";
-import Singleproductitem from "./Components/Singleproductitem/Singleproductitem";
+import Allproducts from "./Components/Allproducts/Allproducts";
 
 const App = () => {
   return (
     <div className={styles["wrapper"]}>
         <Header></Header>
-        <Singleproductitem></Singleproductitem>
+        <Allproducts></Allproducts>
     </div>
   );
 };

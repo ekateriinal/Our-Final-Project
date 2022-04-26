@@ -1,7 +1,7 @@
 .group {
   margin-top: 90px;
   margin-inline: auto;
-  width: min(100% - 200px);
+  width: min(100% - 350px);
   display: flex;
   flex-wrap: wrap;
 
@@ -14,9 +14,28 @@
 
   &__img-box {
     width: 354px;
+     margin-top: 90px;
+     
   }
 
   &__img {
     width: 100%;
   }
+
+  &__title {
+    display: flex;
+align-items: center;
+position: static;
+height: 29px;
+font-weight: 300;
+
+
+  }
+  &__price {
+    font-weight: 500;
+
+
+  }
+
+  
 }
